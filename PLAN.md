@@ -1,24 +1,34 @@
-# danielwaisberg.com — Rebuild Plan (v3)
+# danielwaisberg.com — Rebuild Plan (v4)
 
 **From:** Wix Premium Light (€181/yr) · renewal **April**
 **To:** Astro → GitHub → Cloudflare Pages (~€0/yr + existing domain)
-**Domain/DNS:** GoDaddy — stays put, records repointed at cutover
-**Site size:** homepage + 6 pages
-**Nature of the site:** a CV, not a data-driven publication
+**Domain/DNS:** GoDaddy — records repointed at cutover
 **Environment:** GitHub Codespaces in the browser. Nothing installed locally.
 **Must keep:** Google Analytics (GA4)
 
-**Status:** Phases 0 and 1 complete. Currently at Phase 2.
+**Status:** Phases 0, 1, 2 complete. Currently at Phase 3 — content.
+
+---
+
+## Purpose
+
+> **This site is a standalone professional presence, independent of LinkedIn, for people evaluating me — recruiters, hiring executives, board nomination committees — who already know my name and want depth, evidence, and judgment that a profile page can't carry.**
+
+Two consequences that drive every decision below:
+
+1. **It must stand alone.** Assume no LinkedIn. Everything needed to evaluate a career must be here, including dates and role scaffolding.
+2. **The reader is evaluating, not browsing.** The site must foreground the operator and leader, not only the advocate.
 
 ---
 
 ## Guiding principles
 
-1. **Nothing breaks until it's replaced.** Wix stays live and paid until the new site is verified on the real domain.
-2. **Pipeline before pixels.** ✅ Done — the deploy loop works.
-3. **Learn deliberately.** Understand each step, don't just paste it.
-4. **The site is a document.** Favour longevity over cleverness.
-5. **It's a CV, not a content platform.** Design and structure decisions should follow from that, not from blog-shaped defaults.
+1. **Nothing breaks until it's replaced.** Wix stays live until the new site is verified on the real domain.
+2. **Pipeline before pixels.** ✅ Done.
+3. **Learn deliberately.** Understand each step.
+4. **The site is a document.** Longevity over cleverness.
+5. **Warmth yes, self-deprecation no.** The voice is the site's best asset and stays. But never undercut competence or willingness to engage. Be light about things that don't matter; be plain about things that do.
+6. **Show, don't assert.** A full-room photo beats "audiences of over a thousand." A live dashboard beats "I work with data."
 
 ---
 
@@ -26,122 +36,133 @@
 
 | Decision | Choice | Why |
 |---|---|---|
-| Framework | **Astro** | Seven pages sharing a header/nav/footer; a shared layout means changing the nav once, not seven times |
-| Host | **Cloudflare Pages** | Unlimited bandwidth, commercial use permitted, auto-detects Astro. Low lock-in — switching later is DNS plus a repo connection |
+| Framework | **Astro** | Shared layout across pages; change the nav once |
+| Host | **Cloudflare Pages** | Unlimited bandwidth, commercial use permitted, low lock-in |
 | Editor | **Codespaces** | Full terminal and live preview, nothing installed locally |
-| Repo | **Public** | Part of the professional surface; also unlocks GitHub Pages as a fallback host |
+| Repo | **Public** | Part of the professional surface |
+| Structure | **7 pages → 5** | Organised by reader need, not artifact type |
+| Contact page | **Removed** | Email in footer and on Home. A form plus a joke was working against its own purpose |
+| Data page | **Kept, standalone** | Evidence of analytical ability, not a writing sample |
 
 ---
 
 ## ✅ Phase 0 — Foundations *(complete)*
 
-- [x] Wix renewal date: **April**
-- [x] DNS records at GoDaddy checked; comfortable making the change
-- [x] Current site archived
-- [x] sitemap.xml saved — URL inventory in hand
-- [x] GA4 Measurement ID noted → **needed in Phase 5**
-- [x] Analytics deep-dive skipped by decision — this is a CV, not a traffic-optimised site
-- [x] Inbound-links report skipped — pages and URLs are being kept
+Renewal April · DNS checked · site archived · sitemap saved · GA4 ID noted.
 
 ---
 
 ## ✅ Phase 1 — Pipeline *(complete)*
 
-- [x] GitHub account confirmed personal
-- [x] Repository created (public)
-- [x] Codespace launches; `github.dev` and Codespaces both reachable on the network
-- [x] Astro scaffolded — built in `temp-astro`, moved up with `dotglob`, `.git` verified intact
-- [x] `npm run dev` previewing successfully
-- [x] Committed and pushed
-- [x] Cloudflare Pages connected; live on `*.pages.dev`
-- [x] One branch + pull request done deliberately
+GitHub repo (public, personal account) · Codespace running · Astro scaffolded · Cloudflare Pages deploying on push · one branch + PR done deliberately · `PLAN.md` in the repo.
 
-**Habits to keep:**
-- Stop the Codespace from github.com/codespaces when finishing a session — storage counts against quota even when stopped, so delete it between phases if there's a long gap
-- Paste errors and build logs verbatim rather than paraphrasing
-- Batch changes into meaningful commits rather than one per keystroke
-
-**Still to do:** add `PLAN.md` (this file) to the repo, so the plan is version-controlled alongside the site.
+**Habits:** stop the Codespace when finishing a session; delete it if the gap is weeks. Paste errors verbatim.
 
 ---
 
-## ▶ Phase 2 — Information architecture *(current)*
+## ✅ Phase 2 — Information architecture *(complete)*
 
-*Goal: decide what the site is for, before deciding what it looks like.*
+### Final structure
 
-### 2.1 — Write the one-sentence purpose
-
-Answer briefly, in writing:
-
-- Who lands here? Name the two or three real types of person.
-- How did they arrive — search, a link in a bio, a conference programme, a colleague's recommendation?
-- What should they leave knowing, or having done?
-- What would make the site a failure even if it looked beautiful?
-
-Compress into: *"This site exists so that [audience] can [do/understand] [what]."*
-
-Every later decision gets tested against that sentence. Without it, IA choices default to taste, and taste can't be argued with.
-
-### 2.2 — Content inventory
-
-One row per page:
-
-| URL | Page title | What it's for | Still true? | Verdict |
-|---|---|---|---|---|
-
-**Verdict:** Keep · Rewrite · Merge · Kill.
-
-Default to Kill and make each page argue for its survival against the 2.1 sentence. Since traffic data is deliberately out of scope here, the sentence is the only arbiter — which is exactly why 2.1 comes first.
-
-### 2.3 — Reduce
-
-Seven pages is already lean; the question is whether it should be four or five. Watch for:
-
-- A Contact page holding only an email address → fold into the footer and About
-- Overlapping About / Bio / CV → almost always one page
-- A page describing something you no longer do → Kill
-- A near-dormant blog → Kill, or consolidate into a Writing index
-
-Every page removed is one you never have to maintain, redesign, or feel guilty about.
-
-### 2.4 — Structure and navigation
-
-- **3–5 nav items.** More stops being navigable.
-- **Label by what the reader wants**, not internal category. "Writing" beats "Content".
-- **Order matters** — first and last positions get the most attention.
-- **Decide what the homepage does:** a *directory* pointing onward, or a *destination* that stands alone. For a CV site, destination usually wins — most visitors read one page and leave.
-
-### 2.5 — URL mapping
-
-| Old URL | New URL | Action |
+| Page | Contains | URL |
 |---|---|---|
+| **Home** | Current role in the first sentence. The four-country arc. Two or three distinguishing claims. Languages. Email and LinkedIn visible. | `/` |
+| **Work** | Reverse-chronological, leading with scope and outcome. **Dates on every role.** Education folded in at the end, keeping the Markov Chains thesis. | `/work` |
+| **Writing** | The book, plus an article index that doesn't currently exist | `/book` |
+| **Speaking** | Two YouTube series, 100+ conferences, languages, 3–4 evidential photos | `/videos` |
+| **Data** | Dashboards, framed as a dated archive, ideally interactive | `/dataviz` |
 
-- **Match old paths wherever a page survives.** Free preservation of every existing link. Resist tidying URLs that already work.
-- Moved page → note a 301 redirect.
-- Killed page → redirect to the nearest relevant page if anything links to it; otherwise let it 404 honestly.
-- Redirects live in a `_redirects` file that Cloudflare Pages reads.
+Plus: **downloadable CV (PDF)** at a stable URL, linked from Home and Work. Recruiters and committees forward documents; LinkedIn can't be forwarded.
 
-**Phase 2 deliverables:** the sentence, the inventory with verdicts, the final sitemap, the URL mapping table. With those four, Phases 3–5 become execution rather than deliberation.
+### URL map
+
+| Old | New | Action |
+|---|---|---|
+| `/` | `/` | keep |
+| `/work` | `/work` | keep |
+| `/academic` | `/work` | **301** |
+| `/book` | `/book` | keep — becomes Writing |
+| `/videos` | `/videos` | keep |
+| `/dataviz` | `/dataviz` | keep |
+| `/contact` | `/` | **301** |
+
+Every existing inbound link preserved. Two redirects in `_redirects`.
+
+### Assets currently under-weighted
+
+For an evaluating reader, these are buried and need promoting:
+
+- **Founded, grew to 1M+ users, and sold Online Behavior (2022)** — currently one mid-page paragraph
+- **Chair of Marketing, Web Analytics Association; Presidential Award (2010)** — governance-adjacent leadership, reads as a footnote
+- **Led a cross-functional internal data platform** (engineering, legal, product) — a bullet
+- **Published with Wiley (2015)**
+- **Four languages: Portuguese, Hebrew, English, Spanish** — presents at conferences in all four. Currently absent from the site entirely.
 
 ---
 
-## Phase 3 — Content
+## ▶ Phase 3 — Content *(current)*
 
-- [ ] Rewrite the homepage — hardest, most important, most likely stale
-- [ ] Bio in two lengths: long for the site, short for reuse elsewhere
-- [ ] Update publications, talks, roles
+**Method:** one Markdown file per page, in the repo, written in this order. Home last — it's a distillation of the others and can't be written before they exist.
+
+### Order of work
+
+1. **`/work`** — most raw material, mostly restructuring. Start here to build momentum.
+2. **`/videos` (Speaking)** — assembly plus photo selection
+3. **`/dataviz` (Data)** — audit links, then frame
+4. **`/book` (Writing)** — assembly; the article index is the new work
+5. **`/` (Home)** — last. Hardest. Distils everything above.
+6. **CV PDF** — derived from finished Work content
+
+### Per-page tasks
+
+**Work**
+- [ ] Add dates, titles, organisation and location to **every** role — the standalone requirement
+- [ ] Restructure so each role leads with scope and outcome, not narrative
+- [ ] Promote the Online Behavior sale to prominence
+- [ ] Promote the WAA chairmanship and Presidential Award
+- [ ] Fold in education; keep the Markov Chains thesis as a career through-line
+- [ ] Cut the C.S. Lewis quote header
+- [ ] Link to the CV PDF
+
+**Speaking**
+- [ ] Keep both YouTube series with what each was for
+- [ ] State the languages plainly — no "almost perfectly"
+- [ ] Select 3–4 photos as evidence: one wide full-room shot, one presenting mid-shot, ideally one visibly international venue
+- [ ] Confirm photo rights — conference photographers often retain them
+
+**Data**
+- [ ] Verify every dashboard still loads (Data Studio → Looker Studio)
+- [ ] Date each one explicitly; frame the page as an archive
+- [ ] Static image by default, live dashboard behind a click — avoids the iframe cost on every pageview
+- [ ] Check mobile behaviour on anything embedded
+
+**Writing**
+- [ ] Reframe the book: published with Wiley, 2015; point to current writing rather than dismissing it
+- [ ] Build the article index — 100+ articles currently have no home
+- [ ] Absorb the seven article links buried at the bottom of `/dataviz`
 - [ ] Verify every outbound link resolves
-- [ ] Write page titles and meta descriptions deliberately
-- [ ] Current photo; compress all images
+
+**Home**
+- [ ] Current role in the first sentence
+- [ ] Keep the four-country arc — the site's strongest narrative device
+- [ ] Two or three distinguishing claims, including languages
+- [ ] Email visible; LinkedIn linked
+- [ ] Strongest photo
+- [ ] Cut the Mark Twain quote pattern
+
+**All pages**
+- [ ] Remove self-deprecation that undercuts competence or willingness to engage
+- [ ] Page titles and meta descriptions, written deliberately
+- [ ] Compress all images
 
 ---
 
 ## Phase 4 — Design
 
-- [ ] Gather 3–5 reference sites and articulate *why* each works
+- [ ] Gather 3–5 reference sites; articulate *why* each works
 - [ ] Typography first — on a CV site, type is most of the design
-- [ ] Define type scale, spacing scale, 2–3 colours, link styling
-- [ ] Build layouts: base, homepage, content page
+- [ ] Type scale, spacing scale, 2–3 colours, link styling
+- [ ] Layouts: base, home, content page
 - [ ] Mobile first
 - [ ] One deliberate personality detail
 
@@ -149,14 +170,14 @@ Every page removed is one you never have to maintain, redesign, or feel guilty a
 
 ## Phase 5 — Build
 
-- [ ] Content into the repo as Markdown
-- [ ] Implement layouts and styles
-- [ ] **GA4 tag** in the shared layout, using the Phase 0 Measurement ID
-- [ ] Privacy note covering analytics (Swiss revised FADP)
+- [ ] Markdown into Astro layouts
+- [ ] **GA4 tag** in the shared layout
+- [ ] Privacy note (Swiss revised FADP) — required if dashboards are embedded
 - [ ] Custom 404
 - [ ] Favicon and social share image
-- [ ] `sitemap.xml`, `robots.txt`, `_redirects`
-- [ ] Contact method requiring no backend
+- [ ] `sitemap.xml`, `robots.txt`, `_redirects` (the two 301s)
+- [ ] Email in footer, no backend
+- [ ] CV PDF at a stable path
 
 ---
 
@@ -164,9 +185,9 @@ Every page removed is one you never have to maintain, redesign, or feel guilty a
 
 - [ ] Every link clicked
 - [ ] Phone, wide desktop, second browser
-- [ ] Lighthouse — a static CV site should score near-perfect
-- [ ] Accessibility: contrast, alt text, heading order, keyboard navigation
-- [ ] Link-preview test on LinkedIn
+- [ ] Lighthouse
+- [ ] Accessibility: contrast, alt text, heading order, keyboard nav
+- [ ] LinkedIn link-preview test
 - [ ] Side-by-side against the archived PDFs
 - [ ] GA firing on every page
 
@@ -174,23 +195,21 @@ Every page removed is one you never have to maintain, redesign, or feel guilty a
 
 ## Phase 7 — Cutover
 
-- [ ] Lower DNS TTL at GoDaddy to 5 minutes, 24–48h ahead
-- [ ] Add custom domain in Cloudflare Pages; collect target records
-- [ ] Update records at GoDaddy, replacing Wix's
-- [ ] Verify: domain loads, HTTPS works, `www` and non-`www` both resolve
-- [ ] Spot-check redirects against the Phase 2 mapping
-- [ ] Wait 48 hours
-- [ ] Restore TTL
+- [ ] Lower DNS TTL at GoDaddy to 5 min, 24–48h ahead
+- [ ] Add custom domain in Cloudflare Pages; collect records
+- [ ] Update records at GoDaddy
+- [ ] Verify domain, HTTPS, `www` and non-`www`
+- [ ] Spot-check both redirects
+- [ ] Wait 48 hours, then restore TTL
 
 ---
 
 ## Phase 8 — Post-launch
 
-- [ ] Cancel Wix — only now, and before the April renewal
+- [ ] Cancel Wix — before the April renewal
 - [ ] Resubmit sitemap; check crawl errors after a week
-- [ ] Watch traffic 4–6 weeks against baseline
-- [ ] `README.md`: how to edit, how to deploy — written for you-in-two-years
-- [ ] Maintenance rhythm: twice a year, check links and refresh content
+- [ ] `README.md` for future you
+- [ ] Twice-yearly maintenance rhythm
 
 ---
 
@@ -198,14 +217,12 @@ Every page removed is one you never have to maintain, redesign, or feel guilty a
 
 | Phase | Time |
 |---|---|
-| ~~0 — Foundations~~ | ✅ |
-| ~~1 — Pipeline~~ | ✅ |
-| **2 — Information architecture** | 2–3 hours |
-| 3 — Content | the variable one |
+| ~~0, 1, 2~~ | ✅ |
+| **3 — Content** | the long one — paced by writing, not code |
 | 4 — Design | 3–6 hours |
 | 5 — Build | 4–6 hours |
 | 6 — QA | 1–2 hours |
 | 7 — Cutover | 30 min plus waiting |
 | 8 — Post-launch | minimal |
 
-Deadline April. Months of slack remain.
+Deadline April.
