@@ -88,21 +88,6 @@ I developed and taught courses on world cultures, philosophy, and creative think
 
 ---
 
-# Education
-
-## M.Sc. Operations Research & Decisions — Tel Aviv University
-**Sep 2003 – July 2007**
-
-After my BA I became interested in statistical and mathematical models, and went to [Tel Aviv University](https://english.tau.ac.il/) to study them properly — game theory, data mining, economic models, and Markov chains.
-
-After an initial attempt to write my thesis on the role of creativity in decision-making, I had an idea I'm still proud of: using [Markov chains](http://en.wikipedia.org/wiki/Markov_chain) to optimize websites. The model maps onto a website almost exactly — states are pages, transitions are visitors moving between them. Two decades later, that's still roughly what I work on.
-
-From the abstract:
-
-> This work shows that it is possible, and appropriate, to represent online behavior of Internet surfers using Markov Chains. This conclusion was led by the fact that users (surfers) behave in a non linear manner while visiting websites, and switch from one page to another with no direct relation to past behavior. Even when there is a linear behavior in the website where some pages are a pre-requisite for others (such as in a buying process or in a guided tour through a product), it is possible to adjust the model into an n-order Markov chain, where the next page a customer will visit is affected by the nth pages the customer has visited before. In addition, using Web Analytics tools it is possible to group several pages into one, which allows the whole buying process to be merged into "one page". The use of Markov Chains to analyze online behavior allows website owners to discover the pages that contribute to their website the most. This knowledge is particularly important to define landing pages for specific campaigns and to optimize pages in order to improve conversion rates.
-
----
-
 ## Educator & Leader — Habonim Dror
 **Jan 1999 – July 2003 · Brazil, and internationally**
 
@@ -118,6 +103,21 @@ It remains one of the most formative things I've done. Emily Dickinson put it be
 > And our new Hands
 > Learned Gem-Tactics —
 > Practicing Sands —
+
+---
+
+# Education
+
+## M.Sc. Operations Research & Decisions — Tel Aviv University
+**Sep 2003 – July 2007**
+
+After my BA I became interested in statistical and mathematical models, and went to [Tel Aviv University](https://english.tau.ac.il/) to study them properly — game theory, data mining, economic models, and Markov chains.
+
+After an initial attempt to write my thesis on the role of creativity in decision-making, I had an idea I'm still proud of: using [Markov chains](http://en.wikipedia.org/wiki/Markov_chain) to optimize websites. The model maps onto a website almost exactly — states are pages, transitions are visitors moving between them. Two decades later, that's still roughly what I work on.
+
+From the abstract:
+
+> This work shows that it is possible, and appropriate, to represent online behavior of Internet surfers using Markov Chains. This conclusion was led by the fact that users (surfers) behave in a non linear manner while visiting websites, and switch from one page to another with no direct relation to past behavior. Even when there is a linear behavior in the website where some pages are a pre-requisite for others (such as in a buying process or in a guided tour through a product), it is possible to adjust the model into an n-order Markov chain, where the next page a customer will visit is affected by the nth pages the customer has visited before. In addition, using Web Analytics tools it is possible to group several pages into one, which allows the whole buying process to be merged into "one page". The use of Markov Chains to analyze online behavior allows website owners to discover the pages that contribute to their website the most. This knowledge is particularly important to define landing pages for specific campaigns and to optimize pages in order to improve conversion rates.
 
 ---
 
