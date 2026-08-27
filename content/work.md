@@ -1,4 +1,4 @@
-Twenty years making data useful — as a practitioner, a consultant, an author, and for the last thirteen years at Google. Here's the path, starting from the end.
+Twenty years of making data useful — as a practitioner, a consultant, an author, and for the last thirteen years at Google. Here's the path, starting from the end.
 
 ---
 
@@ -96,13 +96,21 @@ Early in my life I was deeply involved with Habonim Dror, a youth movement that 
 It remains one of the most formative things I've done. Emily Dickinson put it better than I can:
 
 > We play at Paste —
+
 > Till qualified, for Pearl —
+
 > Then, drop the Paste —
+
 > And deem ourself a fool —
+
 > The Shapes — though — were similar —
+
 > And our new Hands
+
 > Learned Gem-Tactics —
+
 > Practicing Sands —
+
 
 ---
 
