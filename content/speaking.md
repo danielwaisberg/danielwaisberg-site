@@ -37,3 +37,9 @@ Over two decades I've spoken at events in 20 cities across four continents, cove
 Portuguese, Hebrew, English, and Spanish — I present in all of them.
 
 It's a practical consequence of a career spent in four countries: Brazil, Israel, the United Kingdom, and now Switzerland. It means I can take the same material to São Paulo, Tel Aviv, London, or Madrid without an interpreter, and adapt it to what each audience already knows.
+ 
+---
+ 
+## Invitations
+ 
+I'm open to speaking at conferences, internal events, and workshops - contact details in the footer.
