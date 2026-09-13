@@ -9,9 +9,9 @@ Twenty years of making data availalable and useful at scale — as a practitione
 
 I'm part of the Search Relations team, working on Google Search Console and Google Trends. The role splits in two.
 
-**Educating the search community.** I'm a regular contributor to the Search Central blog, I present at events around the world, and I've produced two YouTube series from scratch: Search Console Training and Google Trends Tutorials, both part of Google's official Search documentation.
+**Educating the search community.** I'm a regular contributor to the Search Central blog, I present at events around the world, and I've produced [two YouTube series](/speaking#youtube-series) from scratch: Search Console Training and Google Trends Tutorials, both part of Google's official Search documentation.
 
-**Building new capabilities.** I work with the Search Console and Google Trends engineering teams to lead developer-focused features, including the URL Inspection API, bulk data exports, and the Google Trends API. This is the part of the job where advocacy turns into product: user feedback becomes a spec, and the spec becomes something engineers build on.
+**Building new capabilities.** I work with the Search Console and Google Trends engineering teams to lead developer-focused features, including the [URL Inspection API](https://developers.google.com/search/blog/2022/01/url-inspection-api), [Bulk data exports to BigQuery](https://developers.google.com/search/blog/2023/02/bulk-data-export), and the [Google Trends API](https://developers.google.com/search/blog/2025/07/trends-api). This is the part of the job where advocacy turns into product: user feedback becomes a spec, and the spec becomes something engineers build on.
 
 More about my work on my [Google Developers profile](https://developers.google.com/search/blog/authors/daniel-waisberg).
 
@@ -33,11 +33,11 @@ My mission was to find the right data for the right purpose, and to present it i
 ## Founder & Editor — Online Behavior
 **2010 – 2022 · Israel, then UK**
 
-I built Online Behavior from nothing into a well-known portal for marketing measurement and optimization, publishing work from thought leaders across the industry. Over its life it reached more than a million people, and I edited hundreds of articles and built partnerships with content providers across the field.
+I built Online Behavior from the ground up to a well-known portal for marketing measurement and optimization, publishing work from thought leaders across the industry. Over its life it reached more than a million people, and I edited hundreds of articles and built partnerships with content providers across the field.
 
 The site became the demo property for Google Analytics' global sales team and a testing platform for the engineers building the product. **I sold the business in 2022.**
 
-Alongside the publication, I consulted on measurement and optimization as a Google Analytics Certified Partner, delivering training programmes, analytics account designs, and analysis to enterprises including Google, 888 Holdings, and Playtika.
+Alongside the publication, I consulted on measurement and optimization as a Google Analytics Certified Partner, delivering training programs, analytics account designs, and analysis to enterprises including Google, 888 Holdings, and Playtika.
 
 ---
 
@@ -65,10 +65,8 @@ More valuable than any of it was learning what it takes to deliver professional 
 I joined the association (then the Web Analytics Association) as the field was still young, and within a few months became Co-Chair of Marketing. For over three years I worked with the most prominent people in the discipline to grow it and make the case for it.
 
 I managed the marketing volunteers and defined the association's strategic and operational marketing activity. Two projects I created and led:
-
-**Web Analytics Without Borders** — helping [Save the Children](https://www.savethechildren.org/) build a data-driven culture from scratch, to enable durable change in thousands of children's lives.
-
-**Web Analytics Championship** — a competition giving analysts a reason to interact and share what they knew with the wider community.
+- Web Analytics Without Borders: helping [Save the Children](https://www.savethechildren.org/) build a data-driven culture from scratch, to enable durable change in thousands of children's lives.
+- Web Analytics Championship: a competition giving analysts an opportunity to share their knowledge and interact with the wider community.
 
 **In 2010 I received the Web Analytics Association Presidential Award** for this work.
 
@@ -77,7 +75,7 @@ I managed the marketing volunteers and defined the association's strategic and o
 ## Web Analytics Manager — Spiral Solutions
 **August 2005 – January 2007 · Israel**
 
-My first job in the field, and where I discovered it existed. I was responsible for online competitive intelligence and web analytics, merging data about the company's own sites from WebTrends with competitor data from Hitwise. The work was to trace where competitors' traffic came from, compare it with our own referrers, and identify which affiliates and advertisers were worth partnering with.
+This was my first job in the field, and where I discovered it existed. I was responsible for online competitive intelligence and web analytics, merging data about the company's own sites from WebTrends with competitor data from Hitwise. The work was to trace where competitors' traffic came from, compare it with our own referrers, and identify which affiliates and advertisers were worth partnering with.
 
 I still remember the first time I heard the phrase *web analytics*. After getting involved with Hitwise, I started asking the IT manager questions and discovered there was an unused piece of software sitting on the servers: WebTrends 6.1. I read a dozen whitepapers, researched the subject, and took ownership of it. That was the beginning.
 
@@ -86,14 +84,14 @@ I still remember the first time I heard the phrase *web analytics*. After gettin
 ## Teacher — Institute for Gifted Children, Tel Aviv University
 **June 2004 – July 2005 · Israel**
 
-I developed and taught courses on world cultures, philosophy, and creative thinking at the institute, which is part of Tel Aviv University and was coordinated by the writer and educator Dr. Erica Landau.
+I developed and taught courses on world cultures, philosophy, and creative thinking at the institute, which is part of Tel Aviv University, and was coordinated by the writer and educator Dr. Erica Landau.
 
 ---
 
 ## Educator & Leader — Habonim Dror
 **Jan 1999 – July 2003 · Brazil, and internationally**
 
-Early in my life I was deeply involved with Habonim Dror, a youth movement that handed me a great deal of responsibility young. I was responsible for the educational and administrative side of programmes for dozens — sometimes hundreds — of teenagers, and organised events and summer camps at scale. By 21 I had run events for over 200 people and represented Brazil in Russia, the United States, and Argentina.
+Early in my life I was deeply involved with Habonim Dror, a youth movement that handed me a great deal of responsibility while young. I was responsible for the educational and administrative side of programs for dozens — sometimes hundreds — of teenagers, and organised events and summer camps at scale. By 21 I had run events for over 200 people and represented Brazil in Russia, the United States, and Argentina.
 
 It remains one of the most formative things I've done. Emily Dickinson put it better than I can:
 
