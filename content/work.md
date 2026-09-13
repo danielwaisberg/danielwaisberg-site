@@ -1,6 +1,6 @@
 # Work
 
-Twenty years of making data avalailable and useful at scale — as a practitioner, a consultant, an author, and for the last thirteen years at Google. Here's the path, starting from the end.
+Twenty years of making data availalable and useful at scale — as a practitioner, a consultant, an author, and for the last thirteen years at Google. Here's the path, starting from the end.
 
 ---
 
