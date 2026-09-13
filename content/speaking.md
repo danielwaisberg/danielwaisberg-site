@@ -2,7 +2,7 @@
 
 I've presented at over 100 conferences around the world, to rooms ranging from a few dozen people to more than a thousand. I speak in Portuguese, Hebrew, English, and Spanish, and present at conferences in all four.
 
-Most of what I do is explaining technical things to people who need to act on them — search professionals, journalists, marketers, researchers. The goal is never to impress a room, it's to make sure people leave able to do something they couldn't do before.
+Most of what I do is explaining technical things to people who need to act on them — search professionals, journalists, marketers, researchers. My goal is to make sure people leave the presentations able to do something they couldn't do before.
 
 ---
 
@@ -36,10 +36,10 @@ Over two decades I've spoken at events in 20 cities across four continents, cove
 
 Portuguese, Hebrew, English, and Spanish — I present in all of them.
 
-It's a practical consequence of a career spent in four countries: Brazil, Israel, the United Kingdom, and now Switzerland. It means I can take the same material to São Paulo, Tel Aviv, London, or Madrid without an interpreter, and adapt it to what each audience already knows.
+It's a practical consequence of a career spent in four countries: Brazil, Israel, the United Kingdom, and now Switzerland. It means I can take the same material to São Paulo, Tel Aviv, London, or Madrid without an interpreter, and adapt it to each audience.
  
 ---
  
 ## Invitations
  
-I'm open to speaking at conferences, internal events, and workshops - contact details in the footer.
+I'm open to speaking at conferences - contact details in the footer.

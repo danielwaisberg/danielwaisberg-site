@@ -6,7 +6,7 @@ I've been writing about search, analytics, and data for more than fifteen years 
  
 ## Google Search — 2019 to present
  
-My current writing, published on [Search Central](https://developers.google.com/search/), the official developer documentation for Google Search. Much of it accompanies features I helped lead: the pieces marked *Product lead* announce capabilities I worked on with the engineering teams, while *Documentation* and *Best practice* pieces explain how to get more out of what already exists.
+My current writing, published on [Search Central](https://developers.google.com/search/), the official developer documentation for Google Search. Much of it accompanies features I helped lead: the pieces marked *Product lead* point to capabilities I worked on with the engineering teams, while *Documentation* and *Best practice* explain how to get more out of what already exists.
  
 ![Google Search developer documentation profile](/images/google-search-central-profile.png)
 
@@ -37,17 +37,11 @@ Combining Search Console data with back-end business data to see search performa
 **[Bulk data export: a new and powerful way to access your Search Console data](https://developers.google.com/search/blog/2023/02/bulk-data-export)** · February 2023 · *Product lead*
 Introduces automatic, ongoing exports from Search Console into BigQuery.
  
-**[A deep dive into Search Console performance data filtering and limits](https://developers.google.com/search/blog/2022/10/performance-data-deep-dive)** · October 2022 · *Best practice*
-How Performance reports and the API actually extract and filter search data, including where the limits sit and why.
- 
 **[Improving SEO with a Search Console bubble chart](https://developers.google.com/search/docs/monitor-debug/bubble-chart-analysis)** · April 2022 · *Documentation*
 Using bubble charts to make long-tail query data legible.
  
 **[Welcoming the new Search Console URL Inspection API](https://developers.google.com/search/blog/2022/01/url-inspection-api)** · January 2022 · *Product lead*
 Unveils the API giving programmatic access to URL-level index state data.
- 
-**[Google Search Console Insights behind the curtains](https://developers.google.com/search/blog/2021/08/search-console-insights-faq)** · August 2021 · *Best practice*
-The architecture behind Search Console Insights, and how Search Console and Analytics data are brought together inside it.
  
 **[Debugging drops in Google Search traffic](https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops)** · July 2021 · *Documentation*
 The different shapes a traffic drop can take — sudden, gradual, seasonal — and how to work out which one you're looking at.

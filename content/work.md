@@ -1,4 +1,6 @@
-Twenty years of making data useful — as a practitioner, a consultant, an author, and for the last thirteen years at Google. Here's the path, starting from the end.
+# Work
+
+Twenty years of making data avalailable and useful at scale — as a practitioner, a consultant, an author, and for the last thirteen years at Google. Here's the path, starting from the end.
 
 ---
 
@@ -9,7 +11,7 @@ I'm part of the Search Relations team, working on Google Search Console and Goog
 
 **Educating the search community.** I'm a regular contributor to the Search Central blog, I present at events around the world, and I've produced two YouTube series from scratch: Search Console Training and Google Trends Tutorials, both part of Google's official Search documentation.
 
-**Building new capabilities.** I work with the Search Console and Google Trends engineering teams to lead developer-focused features, including the URL Inspection API, bulk data exports, and the Google Trends API. This is the part of the job where advocacy turns into product: user feedback becomes a spec, and the spec becomes something people build on.
+**Building new capabilities.** I work with the Search Console and Google Trends engineering teams to lead developer-focused features, including the URL Inspection API, bulk data exports, and the Google Trends API. This is the part of the job where advocacy turns into product: user feedback becomes a spec, and the spec becomes something engineers build on.
 
 More about my work on my [Google Developers profile](https://developers.google.com/search/blog/authors/daniel-waisberg).
 
@@ -96,21 +98,13 @@ Early in my life I was deeply involved with Habonim Dror, a youth movement that 
 It remains one of the most formative things I've done. Emily Dickinson put it better than I can:
 
 > We play at Paste —
-
 > Till qualified, for Pearl —
-
 > Then, drop the Paste —
-
 > And deem ourself a fool —
-
 > The Shapes — though — were similar —
-
 > And our new Hands
-
 > Learned Gem-Tactics —
-
 > Practicing Sands —
-
 
 ---
 
