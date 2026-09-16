@@ -204,3 +204,21 @@ main.page-home p:has(> strong > a[href^="/"]) > strong > a::after{content:" \219
   .prose img.float{width:100%;max-width:250px;margin:0 0 20px}
 }
 .prose .clear{clear:both}
+
+/* ---------- privacy note ---------- */
+.privacy{
+  max-width:660px;margin:-38px auto 46px;padding:0 22px;
+  font-family:var(--mono);font-size:11.5px;color:var(--faint);line-height:1.7;
+}
+.privacy summary{
+  cursor:pointer;color:var(--grey);list-style:none;
+  display:inline-block;padding:2px 0;
+}
+.privacy summary::-webkit-details-marker{display:none}
+.privacy summary::before{content:"+ ";color:var(--olive)}
+.privacy[open] summary::before{content:"\2212 "}
+.privacy summary:hover{color:var(--ink)}
+.privacy p{margin:10px 0 0;max-width:56ch}
+.privacy a{color:var(--olive);border-bottom:1px solid var(--rule)}
+@media (max-width:600px){.privacy{padding:0 16px;margin:-34px auto 40px}}
+@media print{.privacy{display:none}}

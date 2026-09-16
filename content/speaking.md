@@ -14,13 +14,13 @@ I've produced two series from scratch: writing, presenting, and shaping them end
 
 **With over 8 million views,** this series includes 29 videos across three yearly seasons, and the goal is to help search professionals get started with Google Search Console - optimizing how their sites appear in Google Search and growing organic traffic. The series is part of Google's official Search documentation.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=eWK-6QdJR1nHLPYN&amp;list=PLKoqnv2vTMUOnQn-lNDfT38X9gA_CHxTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=eWK-6QdJR1nHLPYN&amp;list=PLKoqnv2vTMUOnQn-lNDfT38X9gA_CHxTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Google Trends Tutorials
 
 **With over 1 million views,** this series explores the universe of Google Search and YouTube (_how meta!_) trends and what they reveal about current events, cultural trends, and consumer behaviour. Built with real world examples, aimed at journalists, SEOs, researchers, and marketers deciding how to shape their online strategy.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=UUkbhAxv-mXB3a_q&amp;list=PLKoqnv2vTMUO8MUpCbVIiBaDZYrpNF8f-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=UUkbhAxv-mXB3a_q&amp;list=PLKoqnv2vTMUO8MUpCbVIiBaDZYrpNF8f-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
