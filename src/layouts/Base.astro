@@ -3,7 +3,11 @@ import '../styles/global.css';
 
 const { title, description, ogImage = '/images/social-card.png' } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
-const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+// normalise: /work.html and /work/ both become /work; /index.html becomes /
+const path = Astro.url.pathname
+  .replace(/\.html$/, '')
+  .replace(/\/index$/, '/')
+  .replace(/(.)\/$/, '$1') || '/';
 // page-home, page-work, page-writing, page-speaking, page-data
 const pageClass = 'page' + (path === '/' ? '-home' : path.replace(/\//g, '-'));
 
@@ -42,9 +46,14 @@ const GA_ID = 'G-PNC5XZ2ERH';
 
   <!-- set the theme before first paint, so there is no flash -->
   <script is:inline>
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      document.documentElement.setAttribute('data-theme', 'dark');
-    }
+    (function () {
+      var chosen = null;
+      try { chosen = sessionStorage.getItem('theme'); } catch (e) {}
+      var dark = chosen
+        ? chosen === 'dark'
+        : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (dark) document.documentElement.setAttribute('data-theme', 'dark');
+    })();
   </script>
 
   <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>
@@ -114,7 +123,9 @@ const GA_ID = 'G-PNC5XZ2ERH';
     document.getElementById('themeBtn').addEventListener('click', function () {
       var root = document.documentElement;
       var dark = root.getAttribute('data-theme') === 'dark';
-      root.setAttribute('data-theme', dark ? 'light' : 'dark');
+      var next = dark ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { sessionStorage.setItem('theme', next); } catch (e) {}
     });
   </script>
 </body>

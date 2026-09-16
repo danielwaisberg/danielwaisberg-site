@@ -2,7 +2,7 @@
 
 I've presented at over 100 conferences around the world, to rooms ranging from a few dozen people to more than a thousand. Depending on where in the world you catch me, you'll hear my presentation in Portuguese, Hebrew, English, or Spanish.
 
-Most of what I do is explaining technical things to people who need to act on them — search professionals, journalists, marketers, researchers. My goal is to make sure people leave my presentations able to do something they couldn't do before.
+> Most of what I do is explaining technical things to people who need to act on them — search professionals, journalists, marketers, researchers. My goal is to make sure people leave my presentations able to do something they couldn't do before.
 
 ---
 

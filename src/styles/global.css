@@ -161,7 +161,8 @@ main.page-speaking h3{
    Written as a normal Markdown blockquote (>). Work keeps the
    default grey treatment for the Dickinson poem and the abstract. */
 main.page-home blockquote,
-main.page-data blockquote{
+main.page-data blockquote,
+main.page-speaking blockquote{
   border-left:2px solid var(--rust);
   padding:2px 0 2px 17px;
   color:var(--grey);font-size:15.5px;line-height:1.6;
