@@ -1,0 +1,99 @@
+---
+import '../styles/global.css';
+
+const { title, description, ogImage = '/images/social-card.png' } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+// page-home, page-work, page-writing, page-speaking, page-data
+const pageClass = 'page' + (path === '/' ? '-home' : path.replace(/\//g, '-'));
+
+const nav = [
+  { href: '/',         label: 'Home' },
+  { href: '/work',     label: 'Work' },
+  { href: '/writing',  label: 'Writing' },
+  { href: '/speaking', label: 'Speaking' },
+  { href: '/data',     label: 'Data' },
+];
+
+const GA_ID = 'G-PNC5XZ2ERH';
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:image" content={new URL(ogImage, Astro.site)} />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="sitemap" href="/sitemap-index.xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;450;500;600&display=swap" rel="stylesheet" />
+
+  <!-- set the theme before first paint, so there is no flash -->
+  <script is:inline>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  </script>
+
+  <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>
+  <script is:inline define:vars={{ GA_ID }}>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', GA_ID);
+  </script>
+
+  <slot name="head" />
+</head>
+<body>
+  <a href="#main" class="skip">Skip to content</a>
+
+  <header>
+    <div class="bar">
+      <a href="/" class="wordmark">danielwaisberg.com</a>
+      <div class="navwrap">
+        <nav>
+          {nav.map(item => (
+            <a href={item.href} aria-current={path === item.href ? 'page' : undefined}>{item.label}</a>
+          ))}
+        </nav>
+        <button class="toggle" id="themeBtn" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class={`wrap prose ${pageClass}`} id="main">
+    <slot />
+  </main>
+
+  <div class="wrap">
+    <footer>
+      <span><a href="mailto:contact.danielwaisberg@gmail.com">contact.danielwaisberg@gmail.com</a></span>
+      <span><a href="https://www.linkedin.com/in/danielwaisberg/" rel="me">LinkedIn</a></span>
+    </footer>
+  </div>
+
+  <script is:inline>
+    document.getElementById('themeBtn').addEventListener('click', function () {
+      var root = document.documentElement;
+      var dark = root.getAttribute('data-theme') === 'dark';
+      root.setAttribute('data-theme', dark ? 'light' : 'dark');
+    });
+  </script>
+</body>
+</html>

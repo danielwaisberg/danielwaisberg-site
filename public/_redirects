@@ -1,0 +1,6 @@
+# Old Wix URLs -> new structure. 301 = permanent.
+/academic   /work      301
+/book       /writing   301
+/videos     /speaking  301
+/dataviz    /data      301
+/contact    /          301

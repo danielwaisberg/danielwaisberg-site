@@ -106,9 +106,9 @@ It remains one of the most formative things I've done. Emily Dickinson put it be
 
 ---
 
-# Education
+## Education
 
-## M.Sc. Operations Research & Decisions — Tel Aviv University
+### M.Sc. Operations Research & Decisions — Tel Aviv University
 **Sep 2003 – July 2007**
 
 After my BA I became interested in statistical and mathematical models, and went to [Tel Aviv University](https://english.tau.ac.il/) to study them properly — game theory, data mining, economic models, and Markov chains.
@@ -121,7 +121,7 @@ From the abstract:
 
 ---
 
-## B.A. Business Management — PUC Minas
+### B.A. Business Management — PUC Minas
 **1999 – 2003 · Belo Horizonte, Brazil**
 
 Four years at [PUC Minas](https://www.pucminas.br/), spent reading widely and meeting people who mattered to me.

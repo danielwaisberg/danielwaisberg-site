@@ -8,8 +8,7 @@ I've been writing about search, analytics, and data for more than fifteen years 
  
 My current writing, published on [Search Central](https://developers.google.com/search/), the official developer documentation for Google Search. Much of it accompanies features I helped lead: the pieces marked *Product lead* point to capabilities I worked on with the engineering teams, while *Documentation* and *Best practice* explain how to get more out of what already exists.
  
-![Google Search developer documentation profile](/images/google-search-central-profile.png)
-
+<img class="float" src="/images/google-search-central-profile.png" alt="Daniel Waisberg author profile on the Google Search Central blog">
 
 [Full list on Search Central →](https://developers.google.com/search/blog/authors/daniel-waisberg)
  
@@ -56,8 +55,7 @@ Written as an Analytics Advocate, mostly on data analysis and visualization: how
  
 **Google Analytics Integrations** (Wiley, 2015)
 
-![Google Analytics Integrations book cover](/images/google-analytics-integrations-cover.png)
-
+<img class="float cover" src="/images/google-analytics-integrations-cover.png" alt="Cover of Google Analytics Integrations, published by Wiley">
 
 A hands-on guide to turning Google Analytics from a reporting tool into a central marketing analysis platform — integrating data from other Google products and from custom sources, so that a single view of a user, campaign, or product becomes possible.
  

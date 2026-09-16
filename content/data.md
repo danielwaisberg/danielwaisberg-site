@@ -2,7 +2,7 @@
  
 Data only matters if someone can act on it. These dashboards were built to show what that looks like in practice - using public datasets on subjects that affect people's lives.
  
-I built them while on the Google Analytics team, to demonstrate dashboard design principles using [Data Studio](https://cloud.google.com/data-studio), which we were building from ground up. They're a snapshot of that period rather than live reporting: the data is fixed to when each was made, but the analysis and the design decisions still hold. Each one is linked to an interactive dashboard - filter it, drill into it, and see what the numbers do.
+> I built them while on the Google Analytics team, to demonstrate dashboard design principles using [Data Studio](https://cloud.google.com/data-studio), which we were building from ground up. They're a snapshot of that period rather than live reporting: the data is fixed to when each was made, but the analysis and the design decisions still hold. Each one is linked to an interactive dashboard - filter it, drill into it, and see what the numbers do.
  
 ---
  
