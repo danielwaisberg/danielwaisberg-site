@@ -2,6 +2,8 @@
 
 Twenty years of making data available and useful at scale — as a practitioner, a consultant, an author, and for the last thirteen years at Google. Here's the path, starting from the end.
 
+[Download my CV (PDF)](/daniel-waisberg-cv.pdf)
+
 ---
 
 ## Search Advocate — Google
