@@ -4,7 +4,7 @@
 
 <img class="float" src="/images/daniel-waisberg.jpg" alt="Daniel Waisberg smiling at a Google developer relations conference">
 
-I'm a Search Advocate at Google, working on Google Search Console and Google Trends. My job is part product management, part advocacy: I work with the engineering teams to lead developer-facing features - for example URL Inspection API, Bulk data exports to BigQuery, the Google Trends API — and I educate professionals on how to use them, through documentation, conference talks, and two YouTube series.
+I'm a Search Advocate at Google, working on Google Search Console and Google Trends. My job is part product management, part advocacy: I work with the engineering teams to lead developer-facing features (for example the URL Inspection API, the Bulk data export to BigQuery, the Google Trends API) and I educate professionals on how to use them, through documentation, conference talks, and two YouTube series.
 
 > Most of what I do comes back to the same thing: making data available and useful at scale. Finding the right data for the right question, then presenting it so that someone can act on it. That's been the through-line since my master's thesis, which used Markov chains to model how people move through websites — pages as states, visits as transitions. Twenty years later, it's still roughly the problem I work on.
 

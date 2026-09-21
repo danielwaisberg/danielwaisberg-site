@@ -46,7 +46,7 @@ Alongside the publication, I consulted on measurement and optimization as a Goog
 ## Author — Search Engine Land
 **May 2009 – April 2013 · Israel**
 
-For four years I wrote for Search Engine Land on behavioral targeting, conversion optimization, web analytics, and search marketing — covering the field as it was still deciding what it was. [Archive of my articles](http://www.searchengineland.com/author/daniel-waisberg).
+For four years I wrote for Search Engine Land on behavioral targeting, conversion optimization, web analytics, and search marketing — covering the field as it was still deciding what it was. [Archive of my articles](https://www.searchengineland.com/author/daniel-waisberg).
 
 ---
 
@@ -115,7 +115,7 @@ It remains one of the most formative things I've done. Emily Dickinson put it be
 
 After my BA I became interested in statistical and mathematical models, and went to [Tel Aviv University](https://english.tau.ac.il/) to study them properly — game theory, data mining, economic models, and Markov chains.
 
-After an initial attempt to write my thesis on the role of creativity in decision-making, I had an idea I'm still proud of: using [Markov chains](http://en.wikipedia.org/wiki/Markov_chain) to optimize websites. The model maps onto a website almost exactly — states are pages, transitions are visitors moving between them. Two decades later, that's still roughly what I work on.
+After an initial attempt to write my thesis on the role of creativity in decision-making, I had an idea I'm still proud of: using [Markov chains](https://en.wikipedia.org/wiki/Markov_chain) to optimize websites. The model maps onto a website almost exactly — pages as states, visits as transitions. Two decades later, that's still roughly what I work on.
 
 From the abstract:
 

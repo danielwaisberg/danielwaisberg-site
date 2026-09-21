@@ -97,7 +97,7 @@ I founded and edited [Online Behavior](https://online-behavior.com/), a portal f
  
 ---
  
-## Search Engine Land and earlier — 2009 to 2012
+## Search Engine Land and earlier — 2009 to 2013
  
 Before joining Google I wrote 18 articles for [Search Engine Land](https://searchengineland.com/), covering every Google Analytics launch and update of the period, alongside pieces on behavioral targeting, conversion optimization, and search marketing.
  
