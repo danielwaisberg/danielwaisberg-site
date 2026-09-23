@@ -1,49 +1,29 @@
-# Astro Starter Kit: Basics
+# danielwaisberg.com
 
-```sh
-npm create astro@latest -- --template basics
+Source for [danielwaisberg.com](https://danielwaisberg.com) — a static site built with [Astro](https://astro.build) and served by Cloudflare Workers.
+
+## Structure
+
+```
+content/          the five pages, in Markdown — where editing happens
+public/           served as-is: images, CV, favicon, robots.txt, _redirects
+src/layouts/      Base.astro: header, nav, footer, head metadata
+src/pages/        one file per route, each importing a Markdown file
+src/styles/       global.css
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Editing
 
-## 🚀 Project Structure
+Edit a file in `content/`, preview, commit, push. Every push to `main` deploys automatically.
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+```
+npm install      # first time only
+npm run dev      # local preview
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Conventions
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-
-WHAT?!
+- One `#` heading per page.
+- Leave a blank line after any HTML tag in Markdown, or the text that follows disappears.
+- Images go in `public/images/` and are referenced as `/images/name.jpg`.
+- Canonical URLs are non-www with no trailing slash; the settings in `astro.config.mjs` and `wrangler.jsonc` must agree.
